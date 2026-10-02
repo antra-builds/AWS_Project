@@ -1,0 +1,12 @@
+# Commands used
+aws dynamodb put-item --table-name StudentManagement --item '...'
+aws dynamodb get-item --table-name StudentManagement --key '{"StudentID":{"S":"S001"}}'
+aws dynamodb scan --table-name StudentManagement
+
+aws dynamodb update-item \
+  --table-name StudentManagement \
+  --key '{"StudentID":{"S":"S001"}}' \
+  --update-expression "SET #Y = :y" \
+  --expression-attribute-names '{"#Y":"Year"}' \
+  --expression-attribute-values '{":y":{"N":"4"}}' \
+  --return-values ALL_NEW

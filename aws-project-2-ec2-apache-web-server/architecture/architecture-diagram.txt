@@ -1,0 +1,15 @@
+User / Browser
+      |
+ HTTP / HTTPS
+      v
+EC2 Security Group
+      |
+      v
+Amazon EC2
+Amazon Linux
+      |
+      v
+Apache HTTP Server
+      |
+      v
+HTML Webpage

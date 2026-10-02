@@ -1,0 +1,10 @@
+User / Browser
+      |
+    HTTPS
+      v
+Amazon CloudFront
+      |
+      v
+Amazon S3
+      |
+Static Website Files

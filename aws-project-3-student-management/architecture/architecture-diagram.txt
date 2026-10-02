@@ -1,0 +1,12 @@
+User
+  |
+  v
+Amazon EC2 + Apache
+  |
+  v
+Amazon DynamoDB
+StudentManagement
+  ^
+  |
+AWS CloudShell
+AWS CLI
